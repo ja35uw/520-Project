@@ -1,0 +1,38 @@
+{
+  "name": "Leader",
+  "type": "dynamic",
+  "description": "A Block Robot ",
+  "shape": [
+      { "x": -5, "y": 5 },
+      { "x": 5, "y": 5 },
+      { "x": 5, "y": -5 },
+      { "x": -5, "y": -5 }
+
+  ],
+    "friction": {
+      "collision": 0,
+      "linear": 10,
+      "rotational": 1200
+    },
+
+    "sensors": [
+      { 
+          "type": "range",
+          "location": { "x": 5, "y": 0 },
+          "direction": 0
+      },
+      { 
+        "type": "range",
+        "location": { "x": 0, "y": 5 },
+        "direction": 1.5707963267948966
+      },
+      { 
+          "type": "range",
+          "location": { "x": 0, "y": -5 },
+          "direction": -1.5707963267948966
+      }                
+  ],
+
+    "mass": 1,    
+    "controller": "lib/wanderer.so"
+}
