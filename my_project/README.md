@@ -40,7 +40,7 @@ https://github.com/ja35uw/520-Project
 3a. To start a Docker container with ENVIRO pre-loaded into it, do:
 
     ```
-    docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.6 bash
+    docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash
     ```
 *NOTE 1: $PWD should be the local directory on your host. This command will mount that directory and the files into your compiler.
 *NOTE 2: It should say "Error: Failed to fetch. Is the server running?" at this point. 
