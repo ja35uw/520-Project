@@ -6,6 +6,15 @@ The goal of the project is to create an adventure mini-game in which the user co
 The simulation consists of a controller player (aka bear sprite) which is controlled using the keyboard commands. The player must navigate through the maze (static elements), and avoid the searcher bees (which are indestructible)
 and destroy the hive/crazy bees using berries as ammo to make it to the end location. The bear must collect the last bit of honey in the hive, and get out of the maze safely.
 
+The following is a brief description of each of the agents in the simulation:
+
+1. Player - it is a bear sprite that is used to navigate; It can shoot berries to destroy bees within the hive.
+2. Bullet - Up to two berries that the bear use to shoot at bees.
+3. Wanderer - Searcher Bees that navigate through the hive maze; They are indestructible.
+4. Hive - Large hives that store crazy bees. Able to destroy the bear.
+5. Monster - Crazy bees that move quickly and randomly. They can destroy the bear.
+6. Honey - The last single bucket of honeycomb that contains honey. Will attach to the bear once acquired.
+
 ===
 DESCRIPTION OF KEY CHALLENGES
 ---
