@@ -1,0 +1,19 @@
+{
+    "name": "Bullet",
+    "type": "dynamic",
+    "description": "Unlimited ammo of red berries for Bear to destroy the bees with",
+    "shape": [
+        { "x": 0, "y": 0 },
+        { "x": 0, "y": 2 },
+        { "x": 3, "y": 2 },
+        { "x": 3, "y": 0 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 0,
+      "rotational": 60
+    },
+    "sensors": [],
+    "mass": 0.05,    
+    "controller": "lib/bullet.so"
+}

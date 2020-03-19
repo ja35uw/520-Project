@@ -1,0 +1,19 @@
+{
+    "name": "Player",
+    "type": "dynamic",
+    "description": "Just a simple Bear who loves honey",
+    "shape": [
+      { "x": -3, "y": 3 },
+      { "x": -3, "y": -3 },
+      { "x": 3, "y": -3 },
+      { "x": 3, "y": 3 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 1000
+    },
+    "sensors": [],
+    "mass": 2.5,    
+    "controller": "lib/player.so"
+}

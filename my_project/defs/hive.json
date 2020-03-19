@@ -1,0 +1,15 @@
+{
+    "name": "Hive",
+    "type": "dynamic",
+    "description": "Resting space where Crazy Bees reside in",
+    "shape": "omni",
+    "radius": 55,
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 5,    
+    "controller": "lib/hive.so"
+}

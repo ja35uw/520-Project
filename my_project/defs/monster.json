@@ -1,0 +1,21 @@
+{
+    "name": "Monster",
+    "type": "dynamic",
+    "description": "Crazy Bees that go berserk are are quick to flit",
+    "shape": "omni",
+    "radius": 7.5,
+    "friction": {
+      "collision": 1,
+      "linear": 10,
+      "rotational": 600
+    },
+    "sensors": [
+      { 
+          "type": "range",
+          "location": { "x": 5, "y": 0 },
+          "direction": 0
+      }                      
+  ],
+    "mass": 1,    
+    "controller": "lib/monster.so"
+}
